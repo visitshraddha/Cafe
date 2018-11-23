@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="69950" started-at="2018-11-23T11:17:28Z" finished-at="2018-11-23T11:18:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="69950" started-at="2018-11-23T11:17:28Z" finished-at="2018-11-23T11:18:38Z">
+      <class name="com.raisin.challenge.CheckOutBank">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.raisin.challenge.CheckOutBank@5bcab519]" name="setup" is-config="true" duration-ms="16" started-at="2018-11-23T11:17:29Z" finished-at="2018-11-23T11:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckOutBank(java.util.Hashtable)[pri:0, instance:com.raisin.challenge.CheckOutBank@5bcab519]" name="CheckOutBank" duration-ms="27571" started-at="2018-11-23T11:17:29Z" data-provider="tcdata" finished-at="2018-11-23T11:17:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{URL=https://www.raisin.com/bank/, RunMode=Y, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckOutBank -->
+        <test-method status="PASS" signature="teardowbn()[pri:0, instance:com.raisin.challenge.CheckOutBank@5bcab519]" name="teardowbn" is-config="true" duration-ms="655" started-at="2018-11-23T11:17:56Z" finished-at="2018-11-23T11:17:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardowbn -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.raisin.challenge.CheckOutBank@5bcab519]" name="close" is-config="true" duration-ms="698" started-at="2018-11-23T11:17:57Z" finished-at="2018-11-23T11:17:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.raisin.challenge.CheckOutBank -->
+      <class name="com.raisin.challenge.EasyAccessOffers">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.raisin.challenge.EasyAccessOffers@e45f292]" name="setup" is-config="true" duration-ms="1" started-at="2018-11-23T11:17:58Z" finished-at="2018-11-23T11:17:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="EasyAccessTest(java.util.Hashtable)[pri:0, instance:com.raisin.challenge.EasyAccessOffers@e45f292]" name="EasyAccessTest" duration-ms="16518" started-at="2018-11-23T11:17:58Z" data-provider="tcdata" finished-at="2018-11-23T11:18:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{URL=https://www.raisin.com/our-offers/, RunMode=Y, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EasyAccessTest -->
+        <test-method status="PASS" signature="teardowbn()[pri:0, instance:com.raisin.challenge.EasyAccessOffers@e45f292]" name="teardowbn" is-config="true" duration-ms="90" started-at="2018-11-23T11:18:14Z" finished-at="2018-11-23T11:18:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardowbn -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.raisin.challenge.EasyAccessOffers@e45f292]" name="close" is-config="true" duration-ms="1649" started-at="2018-11-23T11:18:14Z" finished-at="2018-11-23T11:18:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.raisin.challenge.EasyAccessOffers -->
+      <class name="com.raisin.challenge.RegisterOffer">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.raisin.challenge.RegisterOffer@5f2108b5]" name="setup" is-config="true" duration-ms="0" started-at="2018-11-23T11:18:16Z" finished-at="2018-11-23T11:18:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="RegisterOffer(java.util.Hashtable)[pri:0, instance:com.raisin.challenge.RegisterOffer@5f2108b5]" name="RegisterOffer" duration-ms="21293" started-at="2018-11-23T11:18:16Z" data-provider="tcdata" finished-at="2018-11-23T11:18:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{URL=https://www.raisin.com/our-offers/, RunMode=Y, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterOffer -->
+        <test-method status="PASS" signature="teardowbn()[pri:0, instance:com.raisin.challenge.RegisterOffer@5f2108b5]" name="teardowbn" is-config="true" duration-ms="44" started-at="2018-11-23T11:18:37Z" finished-at="2018-11-23T11:18:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardowbn -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.raisin.challenge.RegisterOffer@5f2108b5]" name="close" is-config="true" duration-ms="749" started-at="2018-11-23T11:18:37Z" finished-at="2018-11-23T11:18:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.raisin.challenge.RegisterOffer -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
